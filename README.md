@@ -111,9 +111,11 @@ Akses aplikasi melalui http://localhost:8000
 
 __6. Tautan:__
 
-Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
+Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut: 
+https://youtu.be/0tHeDVn8aHw
 
 PPT dapat diakses melalui tautan berikut:
+https://www.canva.com/design/DAGo2Om8ADM/w8xjAEwg32P2_d225Y0t_Q/edit?utm_content=DAGo2Om8ADM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
 https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4
