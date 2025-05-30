@@ -1,0 +1,320 @@
+body {
+    background: #FFE2F4;
+    font-family: 'Montserrat', sans-serif;
+    color: #43708D;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: calc(100vh - 60px);
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo img {
+    width: 50px;
+}
+
+.sidebar .logo p {
+    color: #91BDE2;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a, .sidebar ul li button {
+    color: #91BDE2;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sidebar ul li a img, .sidebar ul li button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sidebar ul li a.active {
+    color: #5C93C9;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.card.moved {
+    transform: translateX(-100%); /* Geser ke kiri buat register */
+}
+
+.card h1 {
+    color: #F88CAC;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.card .form-group label {
+    color: #5C93C9;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.card .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #91BDE2;
+    border-radius: 10px;
+    background: #FFE2F4;
+    font-size: 14px;
+}
+
+.card .form-group input[type="submit"] {
+    background: #5C93C9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card .form-group input[type="submit"]:hover {
+    background: #43708D;
+}
+
+.card .link {
+    color: #5C93C9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.calendar {
+    margin-top: 20px;
+}
+
+.calendar .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar .calendar-header h2 {
+    color: #43708D;
+    font-size: 20px;
+}
+
+.calendar .calendar-header button {
+    background: #91BDE2;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.calendar .calendar-body {
+    background: #91BDE2;
+    padding: 20px;
+    border-radius: 15px;
+    height: 400px;
+    position: relative;
+}
+
+.calendar .calendar-body .day.has-event::after {
+    content: '•';
+    color: #F88CAC;
+    font-size: 20px;
+    position: absolute;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup.active {
+    display: block;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dashboard .task-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard .task-card h3 {
+    color: #F88CAC;
+    font-size: 20px;
+}
+
+.dashboard .task-card p {
+    color: #43708D;
+    font-size: 14px;
+}
+
+.dashboard .task-card .actions a, .dashboard .task-card .actions button {
+    background: #5C93C9;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dashboard .task-card .actions button {
+    background: #F88CAC;
+}
+
+.dashboard .add-task {
+    background: #5C93C9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    color: #F88CAC;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container form div {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 14px;
+    color: #5C93C9;
+    margin-bottom: 5px;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #91BDE2;
+    border-radius: 8px;
+    background: #FFE2F4;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-container input[type="submit"] {
+    background: #5C93C9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #43708D;
+}
+
+.error {
+    color: #F88CAC;
+    font-size: 12px;
+    margin-top: 5px;
+}
