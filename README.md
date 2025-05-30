@@ -43,19 +43,38 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
    
     - Halaman Register
       
-    ![Halaman Register](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Register.png?raw=true)
+      ![Halaman Register](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Register.png?raw=true)
 
+    Formulir pendaftaran akun baru. Pengguna diminta mengisi nama lengkap, username, email, dan password. Validasi data secara real-time dilakukan untuk menghindari duplikasi atau format yang salah. Setelah berhasil mendaftar, pengguna akan diarahkan ke halaman login.
+   
    - Halaman Login
      ![Halaman Login](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Login.png?raw=true)
+     
+    Menampilkan formulir masuk bagi pengguna yang telah terdaftar. Terdapat validasi input seperti username dan password, serta pesan kesalahan apabila login gagal. Login yang berhasil akan diarahkan ke dashboard pengguna.
 
     - Halaman Dashboard
      ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Dashboard.png)
 
+     Halaman utama setelah login. Menampilkan daftar semua jadwal kegiatan (tasks) hari ini milik pengguna yang sedang login. Terdapat tombol untuk menambah jadwal baru, serta opsi untuk mengedit dan menghapus jadwal yang sudah ada.
+   
     - Halaman Kalender
      ![Halaman Kalender](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Kalenderr.png?raw=true)
 
+    Menampilkan kalender bulanan interaktif dengan daftar tanggal. Halaman ini memudahkan pengguna melihat kegiatan dalam tampilan bulanan sekaligus memantau hari-hari yang telah terisi jadwal.
+
+    - Tambah Jadwal Baru
+    ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Dashboard.png)
+    Memungkinkan pengguna menambahkan jadwal baru melalui form pop-up yang muncul saat menekan tombol + pada halaman Dashboard atau Kalender. Fitur Tambah Jadwal akan menyimpan data jika semua input valid. Jika ada field yang kosong atau salah format, validasi akan mencegah form disubmit dan memberikan feedback pada pengguna.
+
     - Halaman Profil
  ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Profil.png)
+
+    Menampilkan data akun pengguna saat ini, seperti nama, username, dan email. Pengguna dapat memperbarui informasi pribadi dan juga mengubah kata sandi. Perubahan akan divalidasi sebelum disimpan. Halaman ini memudahkan pengguna mengelola data akunnya dan keluar dari aplikasi.
+
+   - Logout
+  ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Profil.png)
+    Tombol logout tersedia di halaman Profil. Setelah pengguna menekan tombol ini, sesi mereka akan diakhiri dan mereka akan diarahkan kembali ke halaman login.
+   
 4. Instalasi Aplikasi
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula:
 
