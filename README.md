@@ -53,7 +53,8 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula
 
     3.1 Clone Repository:
     git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
-    cd TinsariRauhana_2308107010038_MiniProject4
+
+   cd TinsariRauhana_2308107010038_MiniProject4
 
     3.2 Install dependensi:
     composer install
@@ -74,7 +75,7 @@ Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta
     php artisan serve
 Akses aplikasi melalui http://localhost:8000
 
-4. Video Penjelasan Aplikasi
+5. Video Penjelasan Aplikasi
 
 Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
 
