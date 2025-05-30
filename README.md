@@ -101,20 +101,19 @@ __3.5 Konfigurasi database di file .env sesuai dengan environment lokal.__
 __3.6 Jalankan migrasi dan seeder:__
    
     php artisan migrate --seed
-    Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
+Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
 
 __3.7 Jalankan Server:__
    
     php artisan serve
    
-    Akses aplikasi melalui http://localhost:8000
+Akses aplikasi melalui http://localhost:8000
 
-__6. Tautan Penjelasan Aplikasi:__
+__6. Tautan:__
 
-    Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
+Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
 
-    PPT dapat diakses melalui tautan berikut:
+PPT dapat diakses melalui tautan berikut:
 
-
-    Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
+Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
 https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4
