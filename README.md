@@ -48,7 +48,7 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
      ![Halaman Login](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Login.png?raw=true)
 
     - Halaman Dashboard
-     ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Dashboard.png?raw=true)
+     ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Dashboard.png)
 
     - Halaman Kalender
      ![Halaman Kalender](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Kalenderr.png?raw=true)
