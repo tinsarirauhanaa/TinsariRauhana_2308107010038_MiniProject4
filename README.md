@@ -4,33 +4,33 @@ Mini Project 4 — Pemrograman Berbasis Web
 
 **Schedula — Aplikasi Manajemen Agenda**
 
-**1. Deskripsi**
+__1. Deskripsi__
 Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus (CRUD) jadwal kegiatan. Aplikasi ini dilengkapi dengan fitur autentikasi pengguna dan antarmuka pengguna yang interaktif. Schedula dikembangkan menggunakan framework Laravel dan menggunakan custom CSS untuk styling antarmuka pengguna. Schedula dibuat untuk memenuhi tugas Mini Project 4 mata kuliah Pemrograman Berbasis Web.
 
-**2. Fitur Utama**
+__2. Fitur Utama__
     
-    2.1 CRUD
+__2.1 CRUD__
     Pengguna dapat:
     - Membuat, melihat, memperbarui, dan menghapus jadwal kegiatan (agenda).
     - Mengedit dan menyimpan data profil pribadi.
     
-    2.2 Autentikasi Pengguna
+__2.2 Autentikasi Pengguna__
     - Menyediakan sistem login dan registrasi untuk mengelola akses pengguna.
     
-    2.4 Manajemen Profil
+__2.4 Manajemen Profil__
     - Pengguna dapat melihat dan memperbarui data profil mereka, termasuk nama, username, email, dan password.
       
-    2.3 Validasi Form
+__2.3 Validasi Form__
     -Setiap form memiliki validasi untuk memastikan data yang dimasukkan valid dan lengkap.
     
-    2.4 Database Migration
+__2.4 Database Migration__
     Struktur database dibuat secara otomatis melalui Laravel migration. Tabel yang digunakan:
       - users: Menyimpan data pengguna.
       - tasks: Menyimpan data agenda.
     Perintah:
     php artisan migrate
     
-    2.5 Database Seeder
+__2.5 Database Seeder__
       Data awal disiapkan untuk keperluan demo dan testing:
       - UserSeeder: Menambahkan satu pengguna contoh.
       - TaskSeeder: Menambahkan dua jadwal demo untuk pengguna tersebut.
@@ -38,7 +38,7 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
     Perintah:
     php artisan db:seed
     
-    2.6 Antarmuka Pengguna (UI)
+__2.6 Antarmuka Pengguna (UI)__
       Desain UI dibuat dengan custom CSS untuk menampilkan tampilan yang interaktif.
    
     - Halaman Register
@@ -47,7 +47,7 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
 
     Formulir pendaftaran akun baru. Pengguna diminta mengisi nama lengkap, username, email, dan password. Validasi data secara real-time dilakukan untuk menghindari duplikasi atau format yang salah. Setelah berhasil mendaftar, pengguna akan diarahkan ke halaman login.
    
-   - Halaman Login
+     - Halaman Login
      ![Halaman Login](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Login.png?raw=true)
      
     Menampilkan formulir masuk bagi pengguna yang telah terdaftar. Terdapat validasi input seperti username dan password, serta pesan kesalahan apabila login gagal. Login yang berhasil akan diarahkan ke dashboard pengguna.
@@ -67,54 +67,54 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
     Memungkinkan pengguna menambahkan jadwal baru melalui form pop-up yang muncul saat menekan tombol + pada halaman Dashboard atau Kalender. Fitur Tambah Jadwal akan menyimpan data jika semua input valid. Jika ada field yang kosong atau salah format, validasi akan mencegah form disubmit dan memberikan feedback pada pengguna.
 
     - Halaman Profil
- ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Profil.png)
+     ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Profil.png)
 
     Menampilkan data akun pengguna saat ini, seperti nama, username, dan email. Pengguna dapat memperbarui informasi pribadi dan juga mengubah kata sandi. Perubahan akan divalidasi sebelum disimpan. Halaman ini memudahkan pengguna mengelola data akunnya dan keluar dari aplikasi.
 
-   - Logout
-  ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/SchedulaKeluar.png)
+    - Logout
+      ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/SchedulaKeluar.png)
     Tombol logout tersedia di halaman Profil. Setelah pengguna menekan tombol ini, sesi mereka akan diakhiri dan mereka akan diarahkan kembali ke halaman login.
    
-**4. Instalasi Aplikasi**
+__4. Instalasi Aplikasi__
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula:
 
-   **3.1 Clone Repository:**
+__3.1 Clone Repository:__
 
-   git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
+       git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
    
-   cd TinsariRauhana_2308107010038_MiniProject4
+       cd TinsariRauhana_2308107010038_MiniProject4
 
-    **3.2 Install dependensi:**
+__3.2 Install dependensi:__
    
     composer install
     
-    **3.3 Konfigurasi Environment, salin file .env.example menjadi .env:**
+__3.3 Konfigurasi Environment, salin file .env.example menjadi .env:__
    
     cp .env.example .env
    
-    **3.4 Generate aplikasi key:**
+__3.4 Generate aplikasi key:__
    
     php artisan key:generate
 
-    **3.5 Konfigurasi database di file .env sesuai dengan environment lokal.**
+__3.5 Konfigurasi database di file .env sesuai dengan environment lokal.__
    
-    **3.6 Jalankan migrasi dan seeder:**
+__3.6 Jalankan migrasi dan seeder:__
    
     php artisan migrate --seed
-Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
+    Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
 
-    **3.7 Jalankan Server:**
+__3.7 Jalankan Server:__
    
     php artisan serve
    
-Akses aplikasi melalui http://localhost:8000
+    Akses aplikasi melalui http://localhost:8000
 
-**6. Video Penjelasan Aplikasi**
+__6. Tautan Penjelasan Aplikasi:__
 
-Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
+    Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
 
-PPT dapat diakses melalui tautan berikut:
+    PPT dapat diakses melalui tautan berikut:
 
 
-Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
+    Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
 https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4
