@@ -106,11 +106,14 @@ Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta
     3.7 Jalankan Server:
    
     php artisan serve
+   
 Akses aplikasi melalui http://localhost:8000
 
-5. Video Penjelasan Aplikasi
+6. Video Penjelasan Aplikasi
 
 Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
+
+PPT dapat diakses melalui tautan berikut:
 
 
 Kode sumber lengkap dari aplikasi Schedula tersedia di repository GitHub berikut:
