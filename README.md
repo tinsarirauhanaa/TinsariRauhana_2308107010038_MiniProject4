@@ -54,25 +54,29 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula
     3.1 Clone Repository:
 
    git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
-
    cd TinsariRauhana_2308107010038_MiniProject4
 
     3.2 Install dependensi:
+   
     composer install
     
     3.3 Konfigurasi Environment, salin file .env.example menjadi .env:
+   
     cp .env.example .env
    
     3.4 Generate aplikasi key:
+   
     php artisan key:generate
 
     3.5 Konfigurasi database di file .env sesuai dengan environment lokal.
    
     3.6 Jalankan migrasi dan seeder:
+   
     php artisan migrate --seed
 Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
 
     3.7 Jalankan Server:
+   
     php artisan serve
 Akses aplikasi melalui http://localhost:8000
 
