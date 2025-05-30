@@ -40,17 +40,22 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
     
     2.6 Antarmuka Pengguna (UI)
       Desain UI dibuat dengan custom CSS untuk menampilkan tampilan yang interaktif.
-    - Halaman Register & Login
+    - Halaman Register
+      
     ![Halaman Register](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Register.png?raw=true)
+
+   - Halaman Login
      ![Halaman Login](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Login.png?raw=true)
 
     - Halaman Dashboard
-    
-    - Halaman Kalender
-    
-    - Halaman Profil
+     ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Dashboard.png?raw=true)
 
-3. Instalasi Aplikasi
+    - Halaman Kalender
+     ![Halaman Kalender](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Kalenderr.png?raw=true)
+
+    - Halaman Profil
+ ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20-%20Profil.png?raw=true)
+4. Instalasi Aplikasi
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula:
 
     3.1 Clone Repository:
