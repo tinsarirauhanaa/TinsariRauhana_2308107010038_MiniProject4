@@ -4,10 +4,10 @@ Mini Project 4 — Pemrograman Berbasis Web
 
 **Schedula — Aplikasi Manajemen Agenda**
 
-1. Deskripsi
+**1. Deskripsi**
 Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus (CRUD) jadwal kegiatan. Aplikasi ini dilengkapi dengan fitur autentikasi pengguna dan antarmuka pengguna yang interaktif. Schedula dikembangkan menggunakan framework Laravel dan menggunakan custom CSS untuk styling antarmuka pengguna. Schedula dibuat untuk memenuhi tugas Mini Project 4 mata kuliah Pemrograman Berbasis Web.
 
-2. Fitur Utama
+**2. Fitur Utama**
     
     2.1 CRUD
     Pengguna dapat:
@@ -75,41 +75,41 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
   ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/SchedulaKeluar.png)
     Tombol logout tersedia di halaman Profil. Setelah pengguna menekan tombol ini, sesi mereka akan diakhiri dan mereka akan diarahkan kembali ke halaman login.
    
-4. Instalasi Aplikasi
+**4. Instalasi Aplikasi**
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula:
 
-    3.1 Clone Repository:
+   **3.1 Clone Repository:**
 
    git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
    
    cd TinsariRauhana_2308107010038_MiniProject4
 
-    3.2 Install dependensi:
+    **3.2 Install dependensi:**
    
     composer install
     
-    3.3 Konfigurasi Environment, salin file .env.example menjadi .env:
+    **3.3 Konfigurasi Environment, salin file .env.example menjadi .env:**
    
     cp .env.example .env
    
-    3.4 Generate aplikasi key:
+    **3.4 Generate aplikasi key:**
    
     php artisan key:generate
 
-    3.5 Konfigurasi database di file .env sesuai dengan environment lokal.
+    **3.5 Konfigurasi database di file .env sesuai dengan environment lokal.**
    
-    3.6 Jalankan migrasi dan seeder:
+    **3.6 Jalankan migrasi dan seeder:**
    
     php artisan migrate --seed
 Perintah ini akan menjalankan migrasi untuk membuat tabel users dan tasks, serta mengisi data awal menggunakan seeder UserSeeder dan TaskSeeder.
 
-    3.7 Jalankan Server:
+    **3.7 Jalankan Server:**
    
     php artisan serve
    
 Akses aplikasi melalui http://localhost:8000
 
-6. Video Penjelasan Aplikasi
+**6. Video Penjelasan Aplikasi**
 
 Penjelasan mengenai aplikasi Schedula, termasuk presentasi dan demo aplikasi, dapat diakses melalui tautan YouTube berikut:
 
