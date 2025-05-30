@@ -9,28 +9,28 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
 
 2. Fitur Utama
     
-__2.1 CRUD__
+    __2.1 CRUD__
     Pengguna dapat:
     - Membuat, melihat, memperbarui, dan menghapus jadwal kegiatan (agenda).
     - Mengedit dan menyimpan data profil pribadi.
     
-__2.2 Autentikasi Pengguna__
+    __2.2 Autentikasi Pengguna__
     - Menyediakan sistem login dan registrasi untuk mengelola akses pengguna.
     
-__2.4 Manajemen Profil__
+    __2.4 Manajemen Profil__
     - Pengguna dapat melihat dan memperbarui data profil mereka, termasuk nama, username, email, dan password.
       
-__2.3 Validasi Form__
+    __2.3 Validasi Form__
     -Setiap form memiliki validasi untuk memastikan data yang dimasukkan valid dan lengkap.
     
-__2.4 Database Migration__
+    __2.4 Database Migration__
     Struktur database dibuat secara otomatis melalui Laravel migration. Tabel yang digunakan:
       - users: Menyimpan data pengguna.
       - tasks: Menyimpan data agenda.
     Perintah:
     php artisan migrate
     
-__2.5 Database Seeder__
+    __2.5 Database Seeder__
       Data awal disiapkan untuk keperluan demo dan testing:
       - UserSeeder: Menambahkan satu pengguna contoh.
       - TaskSeeder: Menambahkan dua jadwal demo untuk pengguna tersebut.
@@ -38,7 +38,7 @@ __2.5 Database Seeder__
     Perintah:
     php artisan db:seed
     
-__2.6 Antarmuka Pengguna (UI)__
+    __2.6 Antarmuka Pengguna (UI)__
       Desain UI dibuat dengan custom CSS untuk menampilkan tampilan yang interaktif.
    
 - Halaman Register
