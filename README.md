@@ -63,7 +63,7 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
     Menampilkan kalender bulanan interaktif dengan daftar tanggal. Halaman ini memudahkan pengguna melihat kegiatan dalam tampilan bulanan sekaligus memantau hari-hari yang telah terisi jadwal.
 
     - Tambah Jadwal Baru
-    ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Dashboard.png)
+    ![Halaman Dashboard](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20_addtask.png)
     Memungkinkan pengguna menambahkan jadwal baru melalui form pop-up yang muncul saat menekan tombol + pada halaman Dashboard atau Kalender. Fitur Tambah Jadwal akan menyimpan data jika semua input valid. Jika ada field yang kosong atau salah format, validasi akan mencegah form disubmit dan memberikan feedback pada pengguna.
 
     - Halaman Profil
@@ -72,7 +72,7 @@ Schedula adalah aplikasi manajemen agenda berbasis web yang memungkinkan penggun
     Menampilkan data akun pengguna saat ini, seperti nama, username, dan email. Pengguna dapat memperbarui informasi pribadi dan juga mengubah kata sandi. Perubahan akan divalidasi sebelum disimpan. Halaman ini memudahkan pengguna mengelola data akunnya dan keluar dari aplikasi.
 
    - Logout
-  ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/Schedula%20Profil.png)
+  ![Halaman Profil](https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4/blob/main/SchedulaKeluar.png)
     Tombol logout tersedia di halaman Profil. Setelah pengguna menekan tombol ini, sesi mereka akan diakhiri dan mereka akan diarahkan kembali ke halaman login.
    
 4. Instalasi Aplikasi
