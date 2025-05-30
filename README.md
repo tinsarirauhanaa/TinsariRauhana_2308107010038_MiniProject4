@@ -54,6 +54,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi Schedula
     3.1 Clone Repository:
 
    git clone https://github.com/tinsarirauhanaa/TinsariRauhana_2308107010038_MiniProject4.git
+   
    cd TinsariRauhana_2308107010038_MiniProject4
 
     3.2 Install dependensi:
